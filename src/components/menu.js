@@ -11,28 +11,50 @@ const Menu = ()=>{
     return(
         <ul class="link-container">
             <li>
+           
+            <Link className="option" to="/">
             HOME
+        </Link>
             </li>
             <li>
+            <Link className="option" to="/cat">
+            CATEGORIES
+        </Link>
                 
-CATEGORIES
+
             </li>
             <Link className="option" to="/craft">
           CRAFTS
         </Link>
        
             <li>
+            
+            <Link className="option" to="/homed">
             HOME DECOR
+        </Link>
             </li>
             <li>
                 
+
+<Link className="option" to="/apprel">
 APPAREL
+        </Link>
             </li>
-            <li>FOOTWEAR</li>
             <li>
-ACCESSORIES</li>
+            <Link className="option" to="/foot">
+            FOOTWEAR
+        </Link>
+            </li>
             <li>
-CRAFTS MAP</li>
+            <Link className="option" to="/asc">
+            ACCESSORIES
+        </Link>
+</li>
+            <li>
+            <Link className="option" to="/map">
+            CRAFTS MAP
+        </Link>
+</li>
         </ul>
         )
     
